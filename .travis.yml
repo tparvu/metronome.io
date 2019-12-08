@@ -10,4 +10,5 @@ deploy:
   skip_cleanup: true
   region: us-east-2
   local_dir: build
-  all_branches: true
+  on:
+    branch: ted-test
